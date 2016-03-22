@@ -1,0 +1,19 @@
+{
+  "name": "contactor",
+  "version": "1.0.0",
+  "description": "simple contact manager",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Stephan Grobler",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-karma": "^0.12.2",
+    "karma": "^0.13.22"
+  }
+}
