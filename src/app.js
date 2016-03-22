@@ -3,6 +3,12 @@
 
     angular
         .module('contactor', [
-            'ngRoute',
+            'contacts'
         ]);
+
+    angular.module('contactor')
+    .config(['$routeProvider', function($routeProvider) {
+    	$routeProvider.otherwise('/contacts');
+    	console.log('test');
+    }]);
 })();
